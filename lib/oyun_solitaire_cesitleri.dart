@@ -1646,7 +1646,7 @@ final _families = <_Family>[
     Icons.grid_view,
     (d) => freeCell(d),
     25000,
-    ['bosPapaz', 'hucre1', 'azHucre', 'tekKart', 'ayniDesen', 'serbestDizi', 'ayniRenk', 'grupTasi', 'ayniDesen+bosPapaz', 'ayniDesen+hucre1', 'serbestDizi+azHucre', 'ayniRenk+bosPapaz', 'grupTasi+azHucre', 'tekKart+hucre1', 'ayniRenk+hucre1', 'grupTasi+ayniDesen', 'tekKart+serbestDizi', 'hucre2+ayniDesen'],
+    ['bosPapaz', 'hucre1', 'azHucre', 'hucre2', 'ayniDesen', 'serbestDizi', 'ayniRenk', 'grupTasi', 'ayniDesen+bosPapaz', 'ayniDesen+hucre1', 'serbestDizi+azHucre', 'ayniRenk+bosPapaz', 'grupTasi+azHucre', 'serbestDizi+bosPapaz', 'ayniRenk+hucre1', 'grupTasi+ayniDesen', 'serbestDizi+hucre1', 'hucre2+ayniDesen'],
   ),
   _Family(
     'yukon',
@@ -1759,7 +1759,7 @@ final _families = <_Family>[
     Icons.ac_unit,
     (d) => yukon(d),
     25000,
-    ['acik', 'bosHerKart', 'ayniDesen', 'serbestDizi', 'ayniRenk', 'hucre1', 'hucre2', 'siraliTasi', 'ayniDesen+hucre1', 'ayniDesen+acik', 'serbestDizi+bosHerKart', 'ayniRenk+hucre1', 'acik+ayniRenk', 'siraliTasi+hucre1', 'serbestDizi+acik'],
+    ['acik', 'bosHerKart', 'ayniDesen', 'serbestDizi', 'ayniRenk', 'hucre1', 'hucre2', 'bosHerKart+hucre1', 'ayniDesen+hucre1', 'ayniDesen+acik', 'serbestDizi+bosHerKart', 'ayniRenk+hucre1', 'acik+ayniRenk', 'siraliTasi+hucre1', 'serbestDizi+acik'],
   ),
   _Family(
     'scorpion',
@@ -1985,7 +1985,7 @@ final _families = <_Family>[
     Icons.pest_control,
     (d) => spider(d),
     40000,
-    ['acik', 'ikiDesen', 'hucre1', 'hucre2', 'bosPapaz', 'ikiDesen+hucre1', 'ikiDesen+acik', 'acik+hucre1', 'dortDesen+hucre2', 'ikiDesen+bosPapaz', 'acik+bosPapaz'],
+    ['acik', 'ikiDesen', 'hucre1', 'hucre2', 'grupTasi', 'ikiDesen+hucre1', 'ikiDesen+acik', 'acik+hucre1', 'ikiDesen+hucre2', 'acik+hucre2', 'grupTasi+hucre1'],
   ),
   _Family(
     'forty',
