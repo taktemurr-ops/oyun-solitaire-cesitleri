@@ -1,0 +1,24 @@
+name: oyun_solitaire_cesitleri
+description: "Solitaire Çeşitleri – Kart Oyunları merkez uygulamasının 100 çeşitlik paketi."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 293a3eda102647b57c23e670d800d91b48d32f0b
+  kart_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/kart-motoru
+      ref: 6f1aba186d6955531e81ca47f3aadf2c4160ddeb
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
