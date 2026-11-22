@@ -2244,7 +2244,7 @@ List<SolCesit> _build() {
         return v;
       }
 
-      final rules = SolitaireRules(gameId: id, variantFor: variant, nodeCap: f.nodeCap, levels: 10000);
+      final rules = SolitaireRules(gameId: id, variantFor: variant, nodeCap: f.nodeCap, levels: 100000);
       final title = _join(f.title, [for (final m in mods) m.label]);
       final info = [
         for (var i = 0; i < 33; i++) [for (final m in mods) m.expl[i]].join(' '),
